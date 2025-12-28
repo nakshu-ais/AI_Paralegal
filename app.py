@@ -4,7 +4,7 @@ from src.retriever import get_retriever
 from src.rag_chain import run_rag
 
 st.set_page_config("Legal RAG Assistant", layout="wide")
-st.title("⚖️ Legal Document RAG (HuggingFace)")
+st.title("⚖️ AI Paralegal")
 
 @st.cache_resource
 def load_db():
@@ -17,7 +17,7 @@ query = st.text_input("Ask a legal question:")
 
 if st.button("Search"):
     if query.strip():
-        with st.spinner("Searching legal documents..."):
+        with st.spinner("Searching legal documents of the firm..."):
             answer, citations = run_rag(query, retriever)
 
         st.subheader("📌 Answer")
