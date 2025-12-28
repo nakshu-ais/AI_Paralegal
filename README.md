@@ -25,3 +25,11 @@ FAISS + HuggingFace embeddings + FLAN-T5.
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+##Demo
+<img width="1373" height="745" alt="Screenshot 2025-12-28 192242" src="https://github.com/user-attachments/assets/918eae64-ad8c-48dd-8525-a72d673170a9" />
+<img width="1373" height="745" alt="Screenshot 2025-12-28 192242" src="https://github.com/user-attachments/assets/c409edaa-3a39-49da-b56f-a20919553650" />
+<img width="1066" height="893" alt="Screenshot 2025-12-28 192409" src="https://github.com/user-attachments/assets/31af1158-b11c-4a1f-8588-68a3b74443d7" />
+
+
+
