@@ -1,4 +1,4 @@
-# ⚖️ Legal Document Retrieval using RAG (HuggingFace)
+# ⚖️ AI Paralegal
 
 AI Paralegal is an intelligent legal research assistant designed to support lawyers and law firms in handling large volumes of cases efficiently. The system can be customized using a firm’s own historical and ongoing case documents, enabling context-aware and firm-specific legal assistance.
 
